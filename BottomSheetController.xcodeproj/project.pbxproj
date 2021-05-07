@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9037024264125FA00668D67 /* IntrinsicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9037023264125FA00668D67 /* IntrinsicViewController.swift */; };
+		A90370262641395100668D67 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90370252641395100668D67 /* DemoViewController.swift */; };
+		A903702C2641603200668D67 /* SheetContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A903702B2641603200668D67 /* SheetContainerViewController.swift */; };
+		A903702E2641624E00668D67 /* BottomSheet+UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A903702D2641624E00668D67 /* BottomSheet+UIApplication.swift */; };
+		A90370302642820300668D67 /* BottomSheet+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A903702F2642820300668D67 /* BottomSheet+UIViewController.swift */; };
 		A9673E69262AF70500F66FBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9673E68262AF70500F66FBB /* AppDelegate.swift */; };
 		A9673E6B262AF70500F66FBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9673E6A262AF70500F66FBB /* SceneDelegate.swift */; };
 		A9673E6D262AF70500F66FBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9673E6C262AF70500F66FBB /* ViewController.swift */; };
 		A9673E70262AF70500F66FBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9673E6E262AF70500F66FBB /* Main.storyboard */; };
 		A9673E72262AF70600F66FBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9673E71262AF70600F66FBB /* Assets.xcassets */; };
 		A9673E75262AF70600F66FBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9673E73262AF70600F66FBB /* LaunchScreen.storyboard */; };
+		A9673E7F262AF95400F66FBB /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9673E7E262AF95400F66FBB /* BottomSheet.swift */; };
+		A9673E84262C30C900F66FBB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9673E83262C30C900F66FBB /* TableViewController.swift */; };
+		A9E513692643CF7C001E24C6 /* BottomSheetOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E513682643CF7C001E24C6 /* BottomSheetOptions.swift */; };
+		A9E5136B2643DA0A001E24C6 /* TextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E5136A2643DA0A001E24C6 /* TextViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A9037023264125FA00668D67 /* IntrinsicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntrinsicViewController.swift; sourceTree = "<group>"; };
+		A90370252641395100668D67 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		A903702B2641603200668D67 /* SheetContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetContainerViewController.swift; sourceTree = "<group>"; };
+		A903702D2641624E00668D67 /* BottomSheet+UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BottomSheet+UIApplication.swift"; sourceTree = "<group>"; };
+		A903702F2642820300668D67 /* BottomSheet+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BottomSheet+UIViewController.swift"; sourceTree = "<group>"; };
 		A9673E65262AF70500F66FBB /* BottomSheetController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BottomSheetController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9673E68262AF70500F66FBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9673E6A262AF70500F66FBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,10 @@
 		A9673E71262AF70600F66FBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9673E74262AF70600F66FBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9673E76262AF70600F66FBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9673E7E262AF95400F66FBB /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
+		A9673E83262C30C900F66FBB /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		A9E513682643CF7C001E24C6 /* BottomSheetOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetOptions.swift; sourceTree = "<group>"; };
+		A9E5136A2643DA0A001E24C6 /* TextViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A903702726415F2400668D67 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A90370252641395100668D67 /* DemoViewController.swift */,
+				A9673E6C262AF70500F66FBB /* ViewController.swift */,
+				A9673E83262C30C900F66FBB /* TableViewController.swift */,
+				A9037023264125FA00668D67 /* IntrinsicViewController.swift */,
+				A9E5136A2643DA0A001E24C6 /* TextViewViewController.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		A903702826415F3100668D67 /* Bottom sheet */ = {
+			isa = PBXGroup;
+			children = (
+				A9673E7E262AF95400F66FBB /* BottomSheet.swift */,
+				A903702B2641603200668D67 /* SheetContainerViewController.swift */,
+				A903702F2642820300668D67 /* BottomSheet+UIViewController.swift */,
+				A903702D2641624E00668D67 /* BottomSheet+UIApplication.swift */,
+				A9E513682643CF7C001E24C6 /* BottomSheetOptions.swift */,
+			);
+			path = "Bottom sheet";
+			sourceTree = "<group>";
+		};
 		A9673E5C262AF70500F66FBB = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +100,8 @@
 			children = (
 				A9673E68262AF70500F66FBB /* AppDelegate.swift */,
 				A9673E6A262AF70500F66FBB /* SceneDelegate.swift */,
-				A9673E6C262AF70500F66FBB /* ViewController.swift */,
+				A903702726415F2400668D67 /* Demo */,
+				A903702826415F3100668D67 /* Bottom sheet */,
 				A9673E6E262AF70500F66FBB /* Main.storyboard */,
 				A9673E71262AF70600F66FBB /* Assets.xcassets */,
 				A9673E73262AF70600F66FBB /* LaunchScreen.storyboard */,
@@ -137,9 +180,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A903702C2641603200668D67 /* SheetContainerViewController.swift in Sources */,
+				A9673E84262C30C900F66FBB /* TableViewController.swift in Sources */,
 				A9673E6D262AF70500F66FBB /* ViewController.swift in Sources */,
 				A9673E69262AF70500F66FBB /* AppDelegate.swift in Sources */,
+				A9673E7F262AF95400F66FBB /* BottomSheet.swift in Sources */,
+				A90370262641395100668D67 /* DemoViewController.swift in Sources */,
+				A9037024264125FA00668D67 /* IntrinsicViewController.swift in Sources */,
+				A9E513692643CF7C001E24C6 /* BottomSheetOptions.swift in Sources */,
+				A9E5136B2643DA0A001E24C6 /* TextViewViewController.swift in Sources */,
 				A9673E6B262AF70500F66FBB /* SceneDelegate.swift in Sources */,
+				A903702E2641624E00668D67 /* BottomSheet+UIApplication.swift in Sources */,
+				A90370302642820300668D67 /* BottomSheet+UIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7RMCG6LBC4;
 				INFOPLIST_FILE = BottomSheetController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +361,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7RMCG6LBC4;
 				INFOPLIST_FILE = BottomSheetController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
