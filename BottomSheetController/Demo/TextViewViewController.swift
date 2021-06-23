@@ -56,6 +56,7 @@ class TextViewViewController: UIViewController {
     
     @objc private func done(_ sender: UIButton) {
         textView.resignFirstResponder()
+        self.bottomSheet?.dismiss(completion: nil)
     }
 }
 
