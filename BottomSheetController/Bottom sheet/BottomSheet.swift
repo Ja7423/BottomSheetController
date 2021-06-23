@@ -128,7 +128,7 @@ class BottomSheetController: UIViewController {
     
     public func dismiss(completion: ((Bool) -> Void)? = nil) {
         if presentingViewController != nil {
-            self.dismiss(animated: true, completion: {
+            dismiss(animated: true, completion: {
                 completion?(true)
             })
             return
@@ -329,6 +329,9 @@ extension BottomSheetController: UIGestureRecognizerDelegate {
     }
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        guard let touch = touches.first else { return }
+        guard let touchView = touch.view else { return }
+        guard touchView === view else { return }
         if touchDismiss { dismiss() }
     }
 }
