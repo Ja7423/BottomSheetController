@@ -51,12 +51,12 @@ class TextViewViewController: UIViewController {
         ])
         
         self.bottomSheet?.handlContentScrollView(textView)
-        self.bottomSheet?.allowPullPastMax = false
+//        self.bottomSheet?.allowPullPastMax = false
     }
     
     @objc private func done(_ sender: UIButton) {
         textView.resignFirstResponder()
-        self.bottomSheet?.dismiss(completion: nil)
+//        self.bottomSheet?.dismiss(completion: nil)
     }
 }
 

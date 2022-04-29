@@ -312,7 +312,13 @@ extension BottomSheetController: UIGestureRecognizerDelegate {
         
         if velocity.y < 0 {
             // 手指往上
-            return !reachMaxHeight()
+            var scrollDown: Bool = false
+            if let scrollView = scrollView as? UITextView {
+                print("contentOffset: \(scrollView.contentOffset.y)")
+                scrollDown = (scrollView.contentOffset.y - scrollView.contentInset.top) <= 0
+            }
+            return scrollDown ? false : !reachMaxHeight()
+//            return !reachMaxHeight()
         } else {
             // 手指往下
             if let scrollView = scrollView {
